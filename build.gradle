@@ -64,6 +64,10 @@ dependencies {
 
     // XML -> JSON
     implementation 'org.json:json:20230227'
+
+    // ChatGPT
+    implementation 'io.github.flashvayne:chatgpt-spring-boot-starter:1.0.0'
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 }
 
 test {
