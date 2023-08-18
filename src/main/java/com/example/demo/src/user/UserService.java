@@ -32,6 +32,7 @@ public class UserService {
             userWeight.setUser(user);
             userWeight.setWeight(0);
             userWeight.setCategory(c);
+            userWeightRepository.save(userWeight);
         }
         userRepository.save(user);
     }

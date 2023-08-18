@@ -35,7 +35,7 @@ public class QuestionService {
         }
 
         Long cnt = answerRepository.count();
-        if (cnt < 3) {
+        if (cnt < 16) {
             // 범위 내에서 랜덤 아이디를 가지고 옴
         Long length = questionRepository.count();
         Long questionId = null;
@@ -53,7 +53,7 @@ public class QuestionService {
 //        if(!question.isPresent()) throw new BaseException(BaseResponseStatus.SERVER_ERROR);
             Question q = question.get();
 
-            return new QuestionRes(q.getId(), q.getQuestion(), true, userId);
+            return new QuestionRes(q.getId(), q.getQuestion(), false, userId);
         }else {
             System.out.println("------------------------------");
             QuestionRes questionRes = new QuestionRes();
