@@ -15,7 +15,7 @@
 secret/
 utils/
 *.yml
-
+.idea
 # AWS User-specific
 .idea/**/aws.xml
 
@@ -59,6 +59,7 @@ cmake-build-*/
 
 # IntelliJ
 out/
+./gradle
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
