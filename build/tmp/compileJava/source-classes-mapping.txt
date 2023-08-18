@@ -1,7 +1,15 @@
+com/example/demo/src/question/dto/AnswerDto.java
+ com.example.demo.src.question.dto.AnswerDto
 com/example/demo/config/Constant.java
  com.example.demo.config.Constant
-com/example/demo/utils/entity/Status.java
- com.example.demo.utils.entity.Status
+com/example/demo/src/question/entity/Category.java
+ com.example.demo.src.question.entity.Category
+com/example/demo/src/question/QuestionService.java
+ com.example.demo.src.question.QuestionService
+com/example/demo/src/question/UserWeightRepository.java
+ com.example.demo.src.question.UserWeightRepository
+com/example/demo/src/user/dto/LoginDto.java
+ com.example.demo.src.user.dto.LoginDto
 com/example/demo/src/question/CategoryRepository.java
  com.example.demo.src.question.CategoryRepository
 com/example/demo/src/chatGPT/dto/ChatGPTRes.java
@@ -10,70 +18,60 @@ com/example/demo/utils/ValidationRegex.java
  com.example.demo.utils.ValidationRegex
 com/example/demo/config/WebConfig.java
  com.example.demo.config.WebConfig
-com/example/demo/src/chatGPT/ChatGPTController.java
- com.example.demo.src.chatGPT.ChatGPTController
-com/example/demo/src/dropout/entity/Dropout.java
- com.example.demo.src.dropout.entity.Dropout
-com/example/demo/config/BaseException.java
- com.example.demo.config.BaseException
-com/example/demo/src/question/UserWeightRepository.java
- com.example.demo.src.question.UserWeightRepository
+com/example/demo/src/question/entity/Question.java
+ com.example.demo.src.question.entity.Question
+com/example/demo/src/chatGPT/ChatGPTService.java
+ com.example.demo.src.chatGPT.ChatGPTService
+com/example/demo/src/question/QuestionRepository.java
+ com.example.demo.src.question.QuestionRepository
 com/example/demo/config/BaseResponseStatus.java
  com.example.demo.config.BaseResponseStatus
-com/example/demo/DemoApplication.java
- com.example.demo.DemoApplication
+com/example/demo/src/chatGPT/ChatGPTController.java
+ com.example.demo.src.chatGPT.ChatGPTController
+com/example/demo/src/dropout/DropoutController.java
+ com.example.demo.src.dropout.DropoutController
+com/example/demo/src/dropout/dto/GetDropoutRes.java
+ com.example.demo.src.dropout.dto.GetDropoutRes
 com/example/demo/SwaggerConfig.java
  com.example.demo.SwaggerConfig
 com/example/demo/src/test/TestController.java
  com.example.demo.src.test.TestController
-com/example/demo/src/chatGPT/ChatGPTService.java
- com.example.demo.src.chatGPT.ChatGPTService
-com/example/demo/config/secret/Secret.java
- com.example.demo.config.secret.Secret
-com/example/demo/src/question/entity/Category.java
- com.example.demo.src.question.entity.Category
+com/example/demo/utils/entity/BaseEntity.java
+ com.example.demo.utils.entity.BaseEntity
+ com.example.demo.utils.entity.BaseEntity$1
+ com.example.demo.utils.entity.BaseEntity$BaseEntityBuilder
+ com.example.demo.utils.entity.BaseEntity$BaseEntityBuilderImpl
+com/example/demo/src/user/UserController.java
+ com.example.demo.src.user.UserController
 com/example/demo/src/user/UserRepository.java
  com.example.demo.src.user.UserRepository
 com/example/demo/src/question/entity/Answer.java
  com.example.demo.src.question.entity.Answer
 com/example/demo/config/BaseResponse.java
  com.example.demo.config.BaseResponse
-com/example/demo/src/dropout/DropoutService.java
- com.example.demo.src.dropout.DropoutService
-com/example/demo/src/dropout/DropoutRepository.java
- com.example.demo.src.dropout.DropoutRepository
-com/example/demo/src/dropout/dto/GetDropoutRes.java
- com.example.demo.src.dropout.dto.GetDropoutRes
-com/example/demo/src/question/entity/Question.java
- com.example.demo.src.question.entity.Question
-com/example/demo/utils/entity/BaseEntity.java
- com.example.demo.utils.entity.BaseEntity
- com.example.demo.utils.entity.BaseEntity$1
- com.example.demo.utils.entity.BaseEntity$BaseEntityBuilder
- com.example.demo.utils.entity.BaseEntity$BaseEntityBuilderImpl
-com/example/demo/src/user/UserService.java
- com.example.demo.src.user.UserService
-com/example/demo/src/user/entity/User.java
- com.example.demo.src.user.entity.User
-com/example/demo/src/dropout/DropoutController.java
- com.example.demo.src.dropout.DropoutController
-com/example/demo/src/user/dto/LoginDto.java
- com.example.demo.src.user.dto.LoginDto
-com/example/demo/src/user/UserController.java
- com.example.demo.src.user.UserController
-com/example/demo/src/question/entity/UserWeight.java
- com.example.demo.src.question.entity.UserWeight
-com/example/demo/src/question/dto/AnswerDto.java
- com.example.demo.src.question.dto.AnswerDto
-com/example/demo/src/question/AnswerService.java
- com.example.demo.src.question.AnswerService
-com/example/demo/src/question/AnswerRepository.java
- com.example.demo.src.question.AnswerRepository
-com/example/demo/src/question/QuestionRepository.java
- com.example.demo.src.question.QuestionRepository
-com/example/demo/src/question/dto/QuestionRes.java
- com.example.demo.src.question.dto.QuestionRes
 com/example/demo/src/question/QuestionController.java
  com.example.demo.src.question.QuestionController
-com/example/demo/src/question/QuestionService.java
- com.example.demo.src.question.QuestionService
+com/example/demo/src/dropout/DropoutService.java
+ com.example.demo.src.dropout.DropoutService
+com/example/demo/src/user/UserService.java
+ com.example.demo.src.user.UserService
+com/example/demo/src/question/AnswerRepository.java
+ com.example.demo.src.question.AnswerRepository
+com/example/demo/src/question/AnswerService.java
+ com.example.demo.src.question.AnswerService
+com/example/demo/utils/entity/Status.java
+ com.example.demo.utils.entity.Status
+com/example/demo/src/user/entity/User.java
+ com.example.demo.src.user.entity.User
+com/example/demo/DemoApplication.java
+ com.example.demo.DemoApplication
+com/example/demo/config/BaseException.java
+ com.example.demo.config.BaseException
+com/example/demo/src/question/entity/UserWeight.java
+ com.example.demo.src.question.entity.UserWeight
+com/example/demo/src/question/dto/QuestionRes.java
+ com.example.demo.src.question.dto.QuestionRes
+com/example/demo/src/dropout/entity/Dropout.java
+ com.example.demo.src.dropout.entity.Dropout
+com/example/demo/src/dropout/DropoutRepository.java
+ com.example.demo.src.dropout.DropoutRepository
